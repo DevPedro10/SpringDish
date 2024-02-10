@@ -1,0 +1,2 @@
+INSERT INTO tb_menu (title, price, image) VALUES('Pizza', 50, 'https://blog.biglar.com.br/wp-content/uploads/2023/06/iStock-1212512019.jpg')
+INSERT INTO tb_menu (title, price, image) VALUES('Hambúrguer', 45, 'https://minervafoods.com/wp-content/uploads/2023/09/HamburguerAlcatraComBacon_1-scaled.jpg')
