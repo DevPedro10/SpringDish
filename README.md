@@ -13,6 +13,7 @@
 </ol>
 
 <h4>Frontend (React + TypeScript)</h4>
+<h6>PS: The Front-end are development yet</h6>
 <ol>
     <li>Navigate to the <code>frontend</code> directory.</li>
     <li>Install dependencies using npm or yarn: <code>npm install</code> or <code>yarn install</code>.</li>
