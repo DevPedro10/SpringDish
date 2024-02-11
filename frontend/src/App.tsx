@@ -63,9 +63,12 @@ export default function App() {
           </form>
           <Toaster />
         </header>
-        <section>
+        <section className='grid grid-cols-3 grid-rows-2'>
+          <Card title='Pizza' price={45} image='https://www.pizzas.com/pepperoni.png' />
+          <Card title='Pizza' price={45} image='https://www.pizzas.com/pepperoni.png' />
           <Card title='Pizza' price={45} image='https://www.pizzas.com/pepperoni.png' />
         </section>
+
       </main>
     </ThemeProvider >
   )
