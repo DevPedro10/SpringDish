@@ -1,12 +1,14 @@
-import './App.css'
+import { Button } from '@/components/ui/button'
+import { ThemeProvider } from '@/components/theme-provider'
 
-function App() {
+export default function App() {
 
   return (
-    <>
-      <h1>Hello, World!</h1>
-    </>
-  )
+    <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
+    <main className="">
+      <Button></Button>
+    </main>
+    </ThemeProvider>
+    )
 }
 
-export default App
