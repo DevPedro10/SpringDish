@@ -67,6 +67,9 @@ export default function App() {
           <Card title='Pizza' price={45} image='https://www.pizzas.com/pepperoni.png' />
           <Card title='Pizza' price={45} image='https://www.pizzas.com/pepperoni.png' />
           <Card title='Pizza' price={45} image='https://www.pizzas.com/pepperoni.png' />
+          
+          <Card title='Pizza' price={45} image='https://www.pizzas.com/pepperoni.png' />
+          <Card title='Pizza' price={45} image='https://www.pizzas.com/pepperoni.png' />
         </section>
 
       </main>
