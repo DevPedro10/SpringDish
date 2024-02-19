@@ -4,8 +4,14 @@ import { Input } from "../ui/input";
 import { Label } from "../ui/label";
 import { Toaster } from "../ui/toaster";
 import { toast } from "../ui/use-toast";
-import { CardProps } from "./CardProps";
 import { Pencil } from "lucide-react";
+
+
+type CardProps = {
+    title: string;
+    price: number;
+    image?: string;
+}
 
 
 export default function Card({ title, price, image }: CardProps) {
@@ -46,7 +52,6 @@ export default function Card({ title, price, image }: CardProps) {
                                             })
                                         }} >Save</Button>
                                     </DialogClose>
-
                                 </DialogFooter>
                             </form>
                         </DialogContent>
