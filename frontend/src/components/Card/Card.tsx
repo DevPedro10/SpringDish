@@ -1,6 +1,5 @@
-import { Pencil } from "lucide-react";
-import { Modal } from "../Modal";
 import { Toaster } from "../ui/toaster";
+import UpdateFood from "../UpdateFood/UpdateFood";
 
 interface CardProps {
     title: string;
@@ -19,23 +18,11 @@ export default function Card({ title, price, image }: CardProps) {
                     <p className="text-sm text-zinc-500 mt-5">${price}</p>
                 </div>
                 <div>
-                    <Modal.Root>
-                        <Modal.Icon icon={Pencil} />
-                        <Modal.Content
-                            dialogTitle="Update the food data"
-                            toastTitle="Food added"
-                            toastDescription="asdasd"
-                            toastDuration={3000}
-                            key={title}
-                        >
-                            <Modal.Input id="food" label="Food" type="text" placeholder="Ex: Pizza" />
-                            <Modal.Input id="food" label="Price" type="number" placeholder="Ex: 45" />
-                            <Modal.Input id="food" label="Image" type="text" placeholder="Ex: https://www.pizzas.com/pepperoni.png" />
-                        </Modal.Content>
-                    </Modal.Root>
+                    <UpdateFood  />
                     <Toaster />
                 </div>
-            </div>
+            </div >
         </div >
+
     )
 }
