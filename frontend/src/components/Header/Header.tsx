@@ -14,7 +14,7 @@ const Header = () => {
                     <Input type='text' placeholder='Order Name' className='' />
                     <Button className='font-bold' variant={'secondary'}><Search size={20} className='mr-2' />Filter results</Button>
                 </div>
-                <RegisterFood title="New Food" />
+                <RegisterFood />
 
             </form>
             <Toaster />

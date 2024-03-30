@@ -11,7 +11,7 @@ interface IconProps extends ButtonHTMLAttributes<HTMLInputElement> {
 export function ModalIcon({ label, icon: Icon }: IconProps) {
     return (
         <DialogTrigger asChild>
-            <Button className="py-3 px-2 mt-14 mr-3" variant="secondary">
+            <Button className="py-3 px-2 mr-3" variant="secondary">
                 <Icon size={18}/>
                 <Label>{label}</Label>
             </Button>

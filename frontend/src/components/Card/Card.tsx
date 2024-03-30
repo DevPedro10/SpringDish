@@ -17,8 +17,8 @@ export default function Card({ title, price, image }: CardProps) {
                     <h1 className="text-xl font-medium ">{title}</h1>
                     <p className="text-sm text-zinc-500 mt-5">${price}</p>
                 </div>
-                <div>
-                    <UpdateFood  />
+                <div className="mt-14">
+                    <UpdateFood />
                     <Toaster />
                 </div>
             </div >
